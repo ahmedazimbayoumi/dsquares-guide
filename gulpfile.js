@@ -77,10 +77,10 @@ gulp.task('default', gulp.series(['browserSync', 'sass', 'scripts'], function ()
 
 /* Gulp dist task */
 // create a distribution folder for production
-var distFolder = 'dist/';
-var assetsFolder = 'dist/assets/';
+var distFolder = 'docs/';
+var assetsFolder = 'docs/assets/';
 
-gulp.task('dist', async function(){
+gulp.task('docs', async function(){
   // remove unused classes from the style.css file with PurgeCSS and copy it to the dist folder
   await purgeCSS();
   // minify the scripts.js file and copy it to the dist folder
