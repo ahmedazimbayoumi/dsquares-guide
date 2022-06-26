@@ -1,0 +1,51 @@
+
+@import 'style-files/index';
+// @import 'style-files/variables';
+@import 'style-files/mixins';
+
+
+/* Base Styles -------------------- */
+html {
+    font-size: 16px;
+} 
+
+@media (max-width: 768px) {
+    html {
+        font-size: 13px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.centered-content h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    color: #0088bb;
+}
+
+
+iframe {
+    height: calc(100vh - 140px);
+    margin-bottom: 3rem;
+  }
+  
+
+
+
+
+
+

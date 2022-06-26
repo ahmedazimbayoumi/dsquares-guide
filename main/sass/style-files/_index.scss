@@ -1,0 +1,19 @@
+@import 'bootstrap/variables';
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import './variables';
+@import 'bootstrap/bootstrap-rtl';
+@import 'fontawesome';
+@import 'line-awesome';
+@import 'fonts';
+
+
+@import "layout/dashboard-default.scss";
+@import "layout/dashboard-fixed.scss";
+
+@import "navigation/nav.scss";
+@import "navigation/topnav.scss";
+@import "navigation/sidenav/sidenav.scss";
+@import "navigation/sidenav/sidenav-dark.scss";
+@import "navigation/sidenav/sidenav-light.scss";
+
+@import "libraries/fullpage";
