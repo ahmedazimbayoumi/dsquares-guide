@@ -69,7 +69,7 @@ gulp.task('browserSync', gulp.series(function (done) {
 }));
 
 gulp.task('default', gulp.series(['browserSync', 'sass', 'scripts'], function () {
-  gulp.watch('main/*.html', gulp.series(reload));
+  gulp.watch('main/**/*.html', gulp.series(reload));
   gulp.watch('main/sass/**/*.scss', gulp.series(['sass']));
   gulp.watch(componentsJsPath, gulp.series(['scripts']));
 }));
@@ -163,7 +163,7 @@ function moveFonts() {
 
 function moveContent() {
   return new Promise(function(resolve, reject) {
-    var stream = gulp.src('main/*.html')
+    var stream = gulp.src('main/**/*.html')
     .pipe(gulp.dest(distFolder));
     
     stream.on('finish', function() {
