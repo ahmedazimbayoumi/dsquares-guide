@@ -51,6 +51,9 @@
             .sb-sidenav-menu-nested {
                 margin-left: 1.5rem;
                 flex-direction: column;
+                .nav-link {
+                    font-size: .9rem;
+                }
             }
         }
     }
