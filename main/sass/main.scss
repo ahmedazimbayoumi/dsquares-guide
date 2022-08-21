@@ -35,6 +35,11 @@ html {
     font-size: 6rem;
     font-weight: 700;
     color: #0088bb;
+    background: linear-gradient(-80deg, #0088bb,  #005b8e);
+    background: -webkit-linear-gradient(-80deg, #0088bb,  #005b8e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 
@@ -50,6 +55,19 @@ iframe {
 
 
 
+.text-grad-black {
+    background: linear-gradient(380deg, #000000, #545454);
+    background: -webkit-linear-gradient(380deg, #000000, #545454);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 
-
+.text-grad-primary {
+    background: linear-gradient(-80deg, #0088bb, #005b8e);
+    background: -webkit-linear-gradient(-80deg, #0088bb, #005b8e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 

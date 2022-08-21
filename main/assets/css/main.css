@@ -32569,11 +32569,11 @@ readers do not read off random characters that represent icons */
   display: flex;
 }
 #layoutSidenav #layoutSidenav_nav {
-  flex-basis: 250px;
+  flex-basis: 305px;
   flex-shrink: 0;
   transition: transform 0.15s ease-in-out;
   z-index: 1038;
-  transform: translateX(-250px);
+  transform: translateX(-305px);
 }
 #layoutSidenav #layoutSidenav_content {
   position: relative;
@@ -32583,7 +32583,7 @@ readers do not read off random characters that represent icons */
   min-width: 0;
   flex-grow: 1;
   min-height: calc(100vh - 56px);
-  margin-left: -250px;
+  margin-left: -305px;
 }
 
 .sb-sidenav-toggled #layoutSidenav #layoutSidenav_nav {
@@ -32613,10 +32613,10 @@ readers do not read off random characters that represent icons */
   }
 
   .sb-sidenav-toggled #layoutSidenav #layoutSidenav_nav {
-    transform: translateX(-250px);
+    transform: translateX(-305px);
   }
   .sb-sidenav-toggled #layoutSidenav #layoutSidenav_content {
-    margin-left: -250px;
+    margin-left: -305px;
   }
   .sb-sidenav-toggled #layoutSidenav #layoutSidenav_content:before {
     display: none;
@@ -32626,7 +32626,7 @@ readers do not read off random characters that represent icons */
   z-index: 1039;
 }
 .sb-nav-fixed #layoutSidenav #layoutSidenav_nav {
-  width: 250px;
+  width: 305px;
   height: 100vh;
   z-index: 1038;
 }
@@ -32637,7 +32637,7 @@ readers do not read off random characters that represent icons */
   overflow-y: auto;
 }
 .sb-nav-fixed #layoutSidenav #layoutSidenav_content {
-  padding-left: 250px;
+  padding-left: 305px;
   top: 56px;
 }
 
@@ -32646,17 +32646,43 @@ readers do not read off random characters that represent icons */
   margin-right: 0.5rem;
 }
 
+.navbar-dark.bg-dark {
+  background-image: linear-gradient(380deg, #dedede, #ffffff) !important;
+  border: 2px solid #dedede;
+}
+
+.sb-sidenav.sb-sidenav-dark {
+  background-image: linear-gradient(380deg, #dedede, #ffffff) !important;
+  border: 2px solid #f0f0f0;
+}
+
 .sb-topnav {
   padding-left: 0;
   height: 56px;
   z-index: 1039;
 }
 .sb-topnav .navbar-brand {
-  width: 250px;
+  width: 305px;
   margin: 0;
+  background: linear-gradient(-80deg, #0088bb, #005b8e);
+  background: -webkit-linear-gradient(-80deg, #0088bb, #005b8e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.sb-topnav .navbar-brand:hover, .sb-topnav .navbar-brand:focus {
+  background: linear-gradient(-80deg, #0088bb, #005b8e);
+  background: -webkit-linear-gradient(-80deg, #0088bb, #005b8e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .sb-topnav.navbar-dark #sidebarToggle {
-  color: rgba(255, 255, 255, 0.5);
+  color: #000000;
 }
 .sb-topnav.navbar-light #sidebarToggle {
   color: #212529;
@@ -32712,29 +32738,32 @@ readers do not read off random characters that represent icons */
 }
 
 .sb-sidenav-dark {
-  background-color: #212529;
+  background-image: #212529;
   color: rgba(255, 255, 255, 0.5);
 }
 .sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {
   color: rgba(255, 255, 255, 0.25);
 }
 .sb-sidenav-dark .sb-sidenav-menu .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  background: linear-gradient(380deg, #000000, #545454);
+  background: -webkit-linear-gradient(380deg, #000000, #545454);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
-  color: rgba(255, 255, 255, 0.25);
+  background: linear-gradient(380deg, #000000, #545454);
+  background: -webkit-linear-gradient(380deg, #000000, #545454);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
-  color: rgba(255, 255, 255, 0.25);
-}
-.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
-  color: #fff;
-}
-.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
-  color: #fff;
-}
-.sb-sidenav-dark .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {
-  color: #fff;
+  background: linear-gradient(380deg, #000000, #545454);
+  background: -webkit-linear-gradient(380deg, #000000, #545454);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .sb-sidenav-dark .sb-sidenav-footer {
   background-color: #343a40;
@@ -33116,6 +33145,11 @@ html {
   font-size: 6rem;
   font-weight: 700;
   color: #0088bb;
+  background: linear-gradient(-80deg, #0088bb, #005b8e);
+  background: -webkit-linear-gradient(-80deg, #0088bb, #005b8e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 iframe {
@@ -33125,4 +33159,20 @@ iframe {
 
 a {
   text-decoration: none;
+}
+
+.text-grad-black {
+  background: linear-gradient(380deg, #000000, #545454);
+  background: -webkit-linear-gradient(380deg, #000000, #545454);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-grad-primary {
+  background: linear-gradient(-80deg, #0088bb, #005b8e);
+  background: -webkit-linear-gradient(-80deg, #0088bb, #005b8e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

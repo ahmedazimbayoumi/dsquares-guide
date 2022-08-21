@@ -7,16 +7,37 @@
     height: $topnav-base-height;
     z-index: $zindex-topnav;
 
+
+
     .navbar-brand {
         width: $sidenav-base-width;
         padding-left: $navbar-padding-x;
         padding-right: $navbar-padding-x;
         margin: 0;
+        background: linear-gradient(-80deg, #0088bb,  #005b8e);
+        background: -webkit-linear-gradient(-80deg, #0088bb,  #005b8e);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: 700;
+        font-size: 1.5rem;
+
+        display: flex;
+        align-items: center;
+
+        &:hover,&:focus {
+            background: linear-gradient(-80deg, #0088bb,  #005b8e);
+            background: -webkit-linear-gradient(-80deg, #0088bb,  #005b8e);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
     }
 
     &.navbar-dark {
         #sidebarToggle {
-            color: $topnav-dark-toggler-color;
+            // color: $topnav-dark-toggler-color;
+            color: #000000;
         }
     }
 

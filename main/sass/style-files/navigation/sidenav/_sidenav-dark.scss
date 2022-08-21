@@ -6,7 +6,7 @@
 // Append .sb-sidenav-dark to .sb-sidenav to use
 
 .sb-sidenav-dark {
-    background-color: $sidenav-dark-bg;
+    background-image: $sidenav-dark-bg;
     color: $sidenav-dark-color;
 
     .sb-sidenav-menu {
@@ -15,25 +15,41 @@
         }
 
         .nav-link {
-            color: $sidenav-dark-link-color;
+            // color: $sidenav-dark-link-color;
+            background: linear-gradient(380deg, #000000, #545454);
+            background: -webkit-linear-gradient(380deg, #000000, #545454);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
 
             .sb-nav-link-icon {
-                color: $sidenav-dark-icon-color;
+                // color: $sidenav-dark-icon-color;
+                background: linear-gradient(380deg, #000000, #545454);
+                background: -webkit-linear-gradient(380deg, #000000, #545454);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
             }
 
             .sb-sidenav-collapse-arrow {
-                color: $sidenav-dark-icon-color;
+                // color: $sidenav-dark-icon-color;
+                background: linear-gradient(380deg, #000000, #545454);
+                background: -webkit-linear-gradient(380deg, #000000, #545454);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
             }
 
             &:hover {
-                color: $sidenav-dark-link-active-color;
+                // color: $sidenav-dark-link-active-color;
+                // color: #555555;
             }
 
             &.active {
-                color: $sidenav-dark-link-active-color;
+                // color: $sidenav-dark-link-active-color;
 
                 .sb-nav-link-icon {
-                    color: $sidenav-dark-link-active-color;
+                    // color: $sidenav-dark-link-active-color;
                 }
             }
         }

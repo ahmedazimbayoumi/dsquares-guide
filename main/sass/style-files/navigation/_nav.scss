@@ -9,3 +9,15 @@
         margin-right: 0.5rem;
     }
 }
+
+
+.navbar-dark.bg-dark {
+    // background-image: linear-gradient(80deg, #000000, #6b6b6b) !important; 
+    background-image: linear-gradient(380deg, #dedede, #ffffff) !important;
+    border: 2px solid #dedede;
+}
+
+.sb-sidenav.sb-sidenav-dark {
+    background-image: linear-gradient(380deg, #dedede, #ffffff) !important;
+    border: 2px solid #f0f0f0;
+}
