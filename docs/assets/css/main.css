@@ -33193,14 +33193,58 @@ a {
   padding: 1rem;
 }
 
+/*FONTS *
+-----------------------------------------------*/
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Satisfy";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/satisfy/v17/rP2Hp2yn6lkG50LoCZOIGA.ttf) format("truetype");
+}
+.sans {
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+}
+
+.serif {
+  font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
+}
+
+.script {
+  font-family: "Satisfy", cursive;
+}
+
 .style-guide {
   /*GLOBAL *
   -----------------------------------------------*/
   /*LAYOUT *
   -----------------------------------------------*/
   /*COLORS *
-  -----------------------------------------------*/
-  /*FONTS *
   -----------------------------------------------*/
   /*TYPOGRAPHY *
   -----------------------------------------------*/
@@ -33306,60 +33350,6 @@ a {
 .style-guide .c-blue {
   background-color: #46c4d7;
   color: #ffffff;
-}
-@font-face {
-  .style-guide {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: normal;
-    src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format("truetype");
-  }
-}
-@font-face {
-  .style-guide {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: normal;
-    src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf) format("truetype");
-  }
-}
-@font-face {
-  .style-guide {
-    font-family: "Roboto Slab";
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf) format("truetype");
-  }
-}
-@font-face {
-  .style-guide {
-    font-family: "Roboto Slab";
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf) format("truetype");
-  }
-}
-@font-face {
-  .style-guide {
-    font-family: "Satisfy";
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/satisfy/v17/rP2Hp2yn6lkG50LoCZOIGA.ttf) format("truetype");
-  }
-}
-.style-guide body {
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
-}
-.style-guide .sans {
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
-}
-.style-guide .serif {
-  font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
-}
-.style-guide .script {
-  font-family: "Satisfy", cursive;
 }
 .style-guide p {
   margin: 0 0 1em 0;
